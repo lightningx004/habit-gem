@@ -569,22 +569,3 @@ h3 { margin: 0 0 15px 0; font-size: 1.2rem; font-weight: 700; }
         padding: 20px;
     }
 }
-/* General styles for desktop/larger screens */
-.container {
-    width: 80%;
-    margin: 0 auto;
-    display: flex; /* Side by side elements */
-}
-
-/* Styles for Mobile Phones (screens smaller than 768px) */
-@media screen and (max-width: 768px) {
-    .container {
-        width: 100%;       /* Use full width on phone */
-        flex-direction: column; /* Stack elements vertically */
-        padding: 10px;
-    }
-    
-    h1 {
-        font-size: 24px;   /* Make text smaller if needed */
-    }
-}
